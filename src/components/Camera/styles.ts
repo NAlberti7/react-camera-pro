@@ -21,7 +21,6 @@ export const Container = styled.div<{ aspectRatio: AspectRatio }>`
     right: 0;`
       : `
     position: relative;
-    padding-bottom: ${100 / aspectRatio}%;`}
 `;
 
 export const ErrorMsg = styled.div`
